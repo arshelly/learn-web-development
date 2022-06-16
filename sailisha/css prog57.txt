@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>program 57</title>
+    </head>
+    <body>
+        <div>
+                    <h1>Get in Touch</h1>
+<h3>
+    lorem ipsum dolor sit smet ,non elit.
+</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quis veniam doloribus. Autem fugiat dolor Voluptatem, ducimus veritatis!
+        <br>done dui,oramare aret.</p>
+        </div>
+    </body>
+</html>
+<style>
+    div{
+        border: black solid 2px;
+        text-align:centre;
+    }
+    body{
+        text-align: centre;
+        font-size: 20px;
+    }
+    h1{
+        color:cyan;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: aqua;
+    }
+</style>

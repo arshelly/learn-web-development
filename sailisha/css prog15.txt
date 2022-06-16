@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            program 15
+        </title>
+    </head>
+    <body>
+        <div>ulike
+            <nav>
+                Home AboutUs Courses Contact
+                <button>sign in</button>
+               </nav>
+        </div>
+    </body>
+</html>
+<style>
+    div{
+        background-color: green;
+        display: block;
+        color: white;
+        padding:10px;
+        text-align: left;
+    }
+    nav{
+        color: white;
+        background-color: green;
+        display: block;
+        text-align: right;
+    }
+</style>

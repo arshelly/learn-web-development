@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>program 30</title>
+    </head>
+    <body>
+    <h1>position: absolute;</h1>
+    <p>An element with position:absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+    <div class="div1">
+        <p>This div element has position relative;</p>
+        <div class="div2">
+           <p> This div element has position :absolute;</p>
+        </div>
+    </div>
+   
+    </body>
+</html>
+<style>
+    .div1{
+        height:400px;
+        width:500px;
+        font-size:18px;
+        padding:10px;        
+        border:4px solid green;
+        position:relative;
+    }
+    .div2{
+        height: 200px;
+        width: 300px;
+        font-size: 18px;
+        padding: 10px;        
+        border:4px solid green;
+        position: absolute;
+        top: 150px;
+        left:190px;
+    }
+</style>

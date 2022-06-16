@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>program 32</title>
+    </head>
+    <body>
+<div>
+    <h1>Display Inline</h1>
+    <div>This is a<p class="inline">Paragraph</p>
+    </div>
+</div>
+<div>
+    <h1>Display inline-block</h1>
+    <div>This is a <p class="inline-block">paragraph</p>
+       </div>
+       </div>
+       <div>
+           <h1>Display block</h1>
+           <div>This is <p class="block">Paragraph</p>
+        </div>
+       </div>        
+    </body>
+</html>
+<style>
+    .inline{
+        display:inline;
+        color:blueviolet;
+    }
+    .inline-block{
+        display:inline-block;
+        color:blueviolet;
+    }
+    .block{
+        display: block;
+        color:blueviolet;
+    }
+    .div{
+        margin:10px;
+    }
+</style>

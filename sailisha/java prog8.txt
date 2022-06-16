@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>program 8</title>
+        <script>
+            function getDetails(){
+            var x=parseInt(document.getElementById("num").value);
+            switch(x){
+                case 1:
+                    document.getElementById("result").innerText="january with 31 days";
+                    break;
+                    case 2:
+                    document.getElementById("result").innerText="february with 28 days";
+                     break;
+                     case 3:
+                     document.getElementById("result").innerText="march with 31 days";
+                     break;
+                    case 4:
+                    document.getElementById("result").innerText="april with 30 days";
+                    break;
+                    case 5:
+                    document.getElementById("result").innerText="may with 31 days";
+                     break;
+                     case 6:
+                    document.getElementById("result").innerText="june with 30days";
+                break;
+                case 7: 
+                document.getElementById("result").innerText="july with 31 days";
+                break;
+                case 8: 
+                document.getElementById("result").innerText="august with 31 days";
+                   break;
+                   case 9: 
+                   document.getElementById("result").innerText="september with 30 days";
+                break;
+                case 10:
+                document.getElementById("result").innerText="october with 31 days";
+                  break;
+                  case 11:
+                  document.getElementById("result").innerText="november with 30 days";
+                   break;
+                   case 12:
+                   document.getElementById("result").innerText="december with 31 days";
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+           Enter the month number:<input type="text" id="num">
+           <input type="button" value="get results" onclick="getDetails()">
+           <br>
+           <p id="result"></p>
+    </body>
+</html>

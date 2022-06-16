@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>program 10</title>
+    </head>
+    <body>
+        <div><p>
+            shop early for the best selection of holiday favourites.Shop now>
+        </p></div>
+    </body>
+</html>
+<style>
+    div{
+        background-color: red;
+        color: white;
+        margin:6px;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+

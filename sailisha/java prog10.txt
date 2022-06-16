@@ -1,0 +1,24 @@
+<html>
+    <body>
+<h2>program to find the greatest of three number</h2>
+    </body>
+    <head>
+        <title>program 10</title>
+        <script>
+            var a,b,c;
+            a=prompt("enter the 1st number :");
+            b=prompt("enter the 2nd number :");
+            c=prompt("enter the 3rd number :");
+              
+            if(a>b && a>c){
+                window.alert("1st number is greatest");
+            }
+            else if(b>c && b>a){
+               window.alert("2nd numberisthe greatest");
+            }
+            else{
+                window.alert("3rd number is the greatest");
+             }
+        </script>
+    </head>
+</html>

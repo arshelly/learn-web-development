@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <h2>check whether the given year is leap year or not</h2>
+        Enter the year:
+        <input type="text" id="y">
+        <input type="button" value="check" onclick="check(y.value)">
+
+    </body>
+    <head>
+<title>program 3</title>
+<script>
+    function check(year){
+        if(year%4 ==0)
+        document.write(year + "is leap year");
+
+        else if(year%100==0)
+        document.write(year+"is not a leap year");
+
+        else if(year%400==0)
+        document.write(year+"is leap year");
+
+        else
+        document.write(year+"year is not a leap year")
+    }
+</script>
+    
+</html>

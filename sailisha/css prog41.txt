@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>program 41</title>
+        <style type="text/css">
+            *{
+                margin: 10px;
+                padding: 0;
+            }
+            .div1{
+                height:200px;
+                width: 200px;
+                background: darkorchid;
+                transition: 2s;
+            }
+            .div1:hover{
+                height: 400px;
+                width: 400px;
+            transformation:rotation(360deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1"></div>
+    </body>
+</html>

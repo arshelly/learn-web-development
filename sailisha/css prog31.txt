@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>program 31</title>
+
+    </head>
+    <body>
+        <img src="tree.png" height="300px" width="400px">
+        <h1>This is a heading</h1>
+        <p>because the image has a z-indxof -1,it will be placed behind the text.</p>
+    </body>
+</html>
+<Style>
+    img{
+        z-index: -1;
+        position: absolute;
+    }
+    
+        
+        
+        </Style>

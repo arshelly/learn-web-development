@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>program 61</title>
+    </head>
+    <body>
+        <div class="d1">
+            <h2>My Skills</h2>
+            <div class="left">
+                <img src="laptop.png">
+                <div class="right">
+                    <h3>Lorem & Ipsum</h3>
+                    <p>Lorem Ipsum is simply a dummy text for printing and typesetting
+                        industry.lorem has been the industry's standard dummy text ever 
+                        since the 1500s when an unknown printer took a galley of and scrumbled.
+                    </p>
+        </div>
+        </div>
+        <div class="left">
+            <div class="right">
+                <h3>Lorem ipsum dolor</h3>
+                <p>em Ipsum is simply a dummy text for printing and typesetting
+                    industry.lorem has been the industry's standard dummy text ever 
+                    since the 1500s when an unknown printer took a galley of and scrumbled.</p>
+        </div>
+        <img src="laptop.png">
+        </div>
+    </body>
+</html>
+<style>
+    body{
+        font-size: 20px;
+    }
+    h2{
+        text-align: center;
+        color:skyblue;
+        
+    }
+    h3{
+        padding-bottom: 10px;
+        color: skyblue;
+    }
+    .d1{
+        max-width: 900px;
+        height:auto;
+        margin:auto;
+        padding:20px;
+    }
+    .left{
+        height:auto;
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    .right{
+        height:auto;
+        width:100%;
+        padding:20px;
+    }
+    img{
+        height:160px;
+        width:160px;
+        border-radius:50%;
+    }
+</style>

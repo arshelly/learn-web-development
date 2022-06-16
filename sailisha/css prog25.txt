@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>program 25</title>
+    </head>
+    <body>
+    <h1>The outline style Property<h1>
+        <p class="p1">A dotted outline</p>
+        <p class="p2">A dashed outline</p>
+        <p class="p3">A solid outline</p>
+        <p class="p4">A double outline</p>
+        <p class="p5">A groove outline.the effect depends on the outline-color value</p>
+        <p class="p6">A ridge outline.The effect depends on the outline-color value.</p>
+        <p class="p7">An inset outline.The effect depends on the outline-color vlue</p>
+        <p class="p8">An outset outline.The effect dpends on the outline-color value</p>
+
+    </body>
+</html>
+<STYLE>
+    .p1{
+      outline-style: dotted;
+      outline-color: red;
+    }
+    .p2{
+        outline-style: dashed;
+        outline-color: red;
+
+    }
+    .p3{
+        outline-style: solid;
+        outline-color: red;
+
+    }
+    .p4{
+        outline-style: double;
+        outline-color: red;
+
+    }
+    .p5{
+        outline-style: groove;
+        outline-color: red;
+
+    }
+    .p6{
+        outline-style: ridge;
+        outline-color: red;
+
+    }
+    .p7{
+        outline-style: inset;
+        outline-color: red;
+
+
+    }
+    .p8{
+        outline-style: outset;
+        outline-color: red;
+
+    }
+</STYLE>

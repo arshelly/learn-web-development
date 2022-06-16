@@ -1,0 +1,38 @@
+
+    nav{
+        background-color:rgba(165, 42, 42, 0.733);
+             
+          
+     }
+    a    
+    { 
+       text-decoration: none;
+       color:white;
+       font-size: 32px;
+       display: inline-block;
+       text-align: center;
+       margin-left: 30px;
+       padding:4px;
+       margin: 20px;
+
+
+       
+       
+
+
+    }
+    header{
+        border:5px solid darkslategray;
+        background-color:darkslategray;;
+        color:white;
+        text-align:center;
+        text-transform: capitalize;
+        font-size: 26px;
+        
+    }
+    a:hover{
+        background-color: chocolate;
+
+    }
+
+    

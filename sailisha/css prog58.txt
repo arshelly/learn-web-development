@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>program 58</title>
+    </head>
+    <body>
+        <div class="d1">
+            <div class="card">
+                <img src="img1.png"><p>service</p>
+                </div>
+                <div class="card">
+                    <img src="img1.png"><p>service</p>
+                    </div>
+                    <div class="card">
+                        <img src="img1.png"><p>service</p>
+                    </div>
+                    <div class="card">
+                    <img src="img1.png"><p>service</p>
+                    </div>
+                    <div class="card">
+                        <img src="img 1.png"><p>service</p>
+                    </div>
+            </body>
+</html>
+<style>
+    .di{
+        display:flex;
+        padding:50px;
+        float:left;
+        flex-wrap:wrap;
+    }
+    .card{
+        width:300px;
+        height:300px;
+        margin:25px;
+        box-shadow: 5px 10px 25px 3px rgb(255,49,83);
+    }
+    img{
+        width:300px;
+        height:300px;
+    }
+    .card:hover{
+        border-left:5px solid rgb(255,49,83);
+    }
+    p{
+        background-color: white;
+        text-align: centre;
+        font-size: 20px;
+    }
+
+</style>

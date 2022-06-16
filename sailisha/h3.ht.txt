@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="girl1.png" height="60px" width="60px" aling="centre">
+</body>
+</html>

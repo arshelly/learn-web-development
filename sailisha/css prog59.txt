@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <title>program 59</title>
+        <link rel="stylesheet" href="../cssfiles/all.css">
+
+    </head>
+    <body>
+<div class="head">
+    <div class="nav">
+        <div class="top">
+            <h2>Profile</h2>
+            <br>
+            <img src="girl2.png">
+            <h2>SHELLY DHIMAN</h2>
+            <p>Software engineer</p>
+            </div>
+         <div class="next">
+             <h2>contact:</h2>
+             <p><i class="fa fa-phone">+916666666666</i></p>
+             <p><i class="fa fa-envelope">abc@gmail.com</i></p>
+             <p><i class="fa fa-map-marker-alt">Vikas Ngar,new Delhi </i></p>
+             </div>
+             </div>
+             <hr>
+             <div class="skills">
+                 <h2>My Skills</h2>
+                 <p>HTML</p>
+                 <div class="progress">
+                     <div class="html"></div>
+</div>
+<br>
+<p>CSS</p>
+<div class="progress">
+<div class="css"></div>
+</div>
+<br>
+<p>JAVASCRIPT</p>
+<div class="progress">
+    <div class="javascript"></div>
+    
+    </div><br>
+    <p>MICROSOFT OFFICE</p>
+    <div class="progress">
+        <div class="mso"></div>
+   </div>
+        <br>
+      </div>
+      <hr>
+      <div class="next">
+          <h2>EDUCATION</h2>
+        <div class="p">
+            <h3>School name</h3>
+            <p>Passing year:2016<br>
+            ff ddis ssib rdfshi hyu gdrbu ert wetyn uis rddf gfd nhh nhw vrt yhd knh
+            </p>
+            </div>
+            <div class="p">
+            <h2>college name:</h2>
+            <p>passing year: 2020<br>
+            ff ddis ssib rdfshi hyu gdrbu ert wetyn uis rddf gfd nhh nhw vrt yhd knh
+  </p>
+</div>
+</div>
+<hr>
+<div class="next">
+         <h2>Experience</h2>
+         <div class="p">
+             <h3>company one</h3>
+             <p>position one<br>
+                ff ddis ssib rdfshi hyu gdrbu ert wetyn uis rddf gfd nhh nhw vrt yhd knh
+            </p>
+
+         </div>
+         <hr>
+         <div class="p">
+             <h3>company two</h3>
+             <p>position two<br>
+                ff ddis ssib rdfshi hyu gdrbu ert wetyn uis rddf gfd nhh nhw vrt yhd knh
+            </p>
+
+         </div>
+         </div>
+         <hr>
+        <div class="next">
+            <h2>Awards & Certificates </h2>
+            <ul>
+                <li>certificate of computer course</li>
+                <li>certificate of compilation</li>
+                <li>employ of the month</li>
+            </ul>
+        </div> 
+    </div>
+    <hr>
+    <div class="next">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>dancing</li>
+            <li>journaling</li>
+            <li>reading</li>
+        </ul>
+    </div> 
+</div>
+    
+    </body>
+</html>
+<style>
+    body{
+        margin:20px;
+        font-size:20px;
+        background:linear-gradient(to right,rgb(255,255,193),skyblue);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav{
+        display:flex;
+    }
+    .top{
+        padding:20px;
+    }
+    .nav .next{
+        margin-left:30%;
+        margin-top:3%;
+    }
+    img{
+        border-radius:60%;
+        width:170px;
+        height:150px;
+        align-items: center;
+    }
+    h2{
+        color: blue;
+    }
+    .skills p{
+        font-weight: 400px;
+        margin-top: 20px;
+       margin-bottom: 5px;
+       color: darkblue;
+}
+.progress{
+    background-color: rgb(184,173,173);
+    width:600px;
+    height:10px;
+    border-radius: 5px;
+}
+.progress div{
+    height:10px;
+    border-radius:5px;
+    width:50%;
+    background-color: blue;
+}
+.progress .html{
+    width:90%;
+
+}
+.progress .css{
+    width:85%;
+}
+.progress .javascript{
+    width:60%;
+}
+.progress .mso{
+    width:95%;
+}
+hr{
+    width:70%;
+    justify-items: left;
+    height:3px;
+    background-color:rgb(164,164,255)
+}
+</style>

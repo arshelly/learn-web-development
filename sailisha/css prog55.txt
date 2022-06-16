@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>program 55</title>
+    </head>
+    <body>
+        <div class="d1">
+            <div class="left">
+                <h1>Designed for startups & <br> Brands</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, rerum delectus? Praesentium eius minus laboriosam expedita assumenda consequuntur exercitationem deserunt, consectetur reiciendis? Error saepe corporis magni minus cum sapiente.
+
+                </p><br>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                <p><i class="fa fa-check"></i>Lorem ipsum dolor sit.</p>
+                <a href="#">WATCH INTRO</a>
+
+            </div>
+        <div class="right">
+            <img src="laptop.png" height="400px" width="400px">
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .left{
+        padding:40px;
+        }
+        .d1{
+            display:flex;
+            justify-content:centre;
+            align-items: center;
+
+        }
+        .a{
+            text-decoration: none;
+            color:white;
+            background-color: rgb(67,67,240);
+            padding:12px 16px;
+        }
+        p{
+            font-size:20px;
+        }
+</style>

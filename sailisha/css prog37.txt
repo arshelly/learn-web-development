@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>program 37</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>HEADER</h1>
+            <P>Resize the browser window to see the responsive effect.</P>
+        </div>
+        <div class="navbar">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </div>
+        <div class="row">
+        <div class="first">
+            <h2>side</h2>
+            <p>Lorem ipsum dolor sitamet,consectetur adispiscing elit...</p>
+        </div>
+        <div class="second">
+            <h2>Main content</h2>
+            <p>cinas sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit.Meacinas sit amet pretium urna.vivamus venetias velit nec neque ultirie,eget elemental
+                magna trisquevehicula risus eget aliquamplacerat purus leo tincidunt eros eget luctus quamorci in velit.
+
+            </p>
+
+        </div>
+        <div>
+        </div class="third">
+            <h2>side</h2>
+            <p>Lorem ipsum dolor sitamet,consectetur adispiscing elit..</p>
+            .</p>
+        </div>
+    </body>
+</html>
+<style>
+p{
+    font-size: 15px;
+    padding: 20px;
+}
+.header{
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding: 16px 20px;
+    justify-content: flex-start;
+}
+.navbar a:hover{
+    background-color: white;
+    color:black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.row h2{
+    padding-left: 20px;
+}
+.first{
+    flex: 20%;
+}
+.second{
+    flex: 60%;
+}
+.third{
+    flex: 20%;
+}
+</style>
